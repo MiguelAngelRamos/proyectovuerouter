@@ -11,7 +11,7 @@
           <router-link class="nav-link" to="/">Home</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/about">about</router-link>
+          <router-link class="nav-link" to="/users">Users</router-link>
         </li>
 
         </ul>

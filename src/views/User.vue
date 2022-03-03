@@ -8,6 +8,7 @@
          <th>Nick</th>
          <th>Email</th>
          <th>Dirección</th>
+         <th>Sitio Web</th>
        </tr>
      </thead>
      <tbody>
@@ -16,6 +17,7 @@
          <td>{{user.username }}</td>
          <td>{{user.email}}</td>
          <td>{{ user.address?.street}} - {{user.address?.suite}}</td>
+         <td>{{user.website}}</td>
        </tr>
      </tbody>
    </table>
